@@ -25,6 +25,6 @@ COPY --from=builder /app/server .
 # Copy frontend
 COPY frontend/ ./frontend/
 
-EXPOSE 8080
+EXPOSE 8090
 
 CMD ["./server"]

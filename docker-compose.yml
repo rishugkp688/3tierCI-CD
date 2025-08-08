@@ -3,7 +3,7 @@ services:
     build: .
     container_name: anonymous-wall
     ports:
-      - "8080:8080"
+      - "8090:8090"
     restart: unless-stopped
     # Add the environment section
     environment:

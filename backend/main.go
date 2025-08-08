@@ -60,6 +60,6 @@ func main() {
 
 	handler := cors.Default().Handler(mux)
 
-	log.Println("Server starting on port 8080...")
-	log.Fatal(http.ListenAndServe(":8080", handler))
+	log.Println("Server starting on port 8090...")
+	log.Fatal(http.ListenAndServe(":8090", handler))
 }
